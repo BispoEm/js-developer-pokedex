@@ -1,0 +1,74 @@
+
+.pokeDetail, detail-area{
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(255, 255, 255, 0.4);
+    display:none;
+    transition: all ease .5s;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pokemonDetails {
+    width: 60%;
+    background-color: #FFF;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px #999;
+    /* display: flex; */
+    margin: 20px 0px;
+}
+
+.pokemonDetails .photoDetail{
+    display: flex;
+    width: 100%;
+    border-radius: 1rem;
+}
+.pokemonDetails .photoDetail img{
+    margin: 3rem auto;
+    width: 250px;
+}
+
+.aboutDetail, .aboutDetail td,.aboutDetail thead th{
+    border: 1px solid rgba(73, 68, 68, 0.05);
+    border-collapse: collapse;
+    border-top: none;
+    border-bottom: none;
+}
+.aboutDetail{
+    margin: 1.5rem auto;
+    padding: .5rem;
+    text-align: center;
+    width: 90%;
+}
+    
+.aboutDetail .details th{
+    border-bottom: 1px solid rgba(73, 68, 68, 0.3);;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.aboutDetail .details{
+    margin-bottom: 1rem;
+}
+
+.resultsDetails{
+    height: 15vh;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.resultsDetails ol{
+    margin: .5rem;
+    padding: .2rem;
+}
+.resultsDetails ol li{
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
